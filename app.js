@@ -30,8 +30,8 @@
 // alert(aussieGreeting);
 // var thanx = "Thanks for your input!"
 // alert(thanx);
-var weight = 150;
-alert(weight +10 +" " + "pounds")
-var originalNum = 23;
-var newNum = originalNum + 7;
-alert(newNum);
+// var weight = 150;
+// alert(weight +10 +" " + "pounds")
+// var originalNum = 23;
+// var newNum = originalNum + 7;
+// alert(newNum);
