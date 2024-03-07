@@ -9,22 +9,29 @@
 // name='John Doe';
 // alert (name);
 // <-------------------------------------//7-3-2024----------------------------->
-var nationality;
-nationality = "U.S.";
-alert(nationality);
-var nationality;
-nationality="pakistani";
-alert(nationality);
-var floogle = "Mark";
-alert(floogle);
-var lessonAuthor = "Mark";
-var guyWhoKeepsSayingHisOwnName = "Mark";
-alert(guyWhoKeepsSayingHisOwnName )
-var x = "Asif";
-alert(x)
-var lastName = "Smith";
-var cityOfOrigin = "New Orleans";
-var aussieGreeting = "g'Day";
-alert(lastName);
-alert(cityOfOrigin);
-alert(aussieGreeting);
+// var nationality;
+// nationality = "U.S.";
+// alert(nationality);
+// var nationality;
+// nationality="pakistani";
+// alert(nationality);
+// var floogle = "Mark";
+// alert(floogle);
+// var lessonAuthor = "Mark";
+// var guyWhoKeepsSayingHisOwnName = "Mark";
+// alert(guyWhoKeepsSayingHisOwnName )
+// var x = "Asif";
+// alert(x)
+// var lastName = "Smith";
+// var cityOfOrigin = "New Orleans";
+// var aussieGreeting = "g'Day";
+// alert(lastName);
+// alert(cityOfOrigin);
+// alert(aussieGreeting);
+// var thanx = "Thanks for your input!"
+// alert(thanx);
+var weight = 150;
+alert(weight +10 +" " + "pounds")
+var originalNum = 23;
+var newNum = originalNum + 7;
+alert(newNum);
