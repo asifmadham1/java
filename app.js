@@ -30,8 +30,45 @@
 // alert(aussieGreeting);
 // var thanx = "Thanks for your input!"
 // alert(thanx);
-// var weight = 150;
-// alert(weight +10 +" " + "pounds")
-// var originalNum = 23;
-// var newNum = originalNum + 7;
+// var originalNum = 10;
+// var numToBeAdded =17;
+// var newNum = originalNum + numToBeAdded;
 // alert(newNum);
+// var originalNum = 90;
+// originalNum = originalNum + 10;
+// alert(originalNum);
+
+// var firstPresident = "Washington";
+// alert(firstPresident )
+
+// var prezWhoCame1st = "Quaid-e-azam muhammad ali jinnah";
+// alert(prezWhoCame1st );
+
+// var caseQty = 144;
+// alert(caseQty);
+
+// var message = "Thanks for your input!";
+// alert(message);
+
+// var message = "Thanks, ";
+// var userName = "Susan";
+// var banger = "!";
+// var customMess = message + userName + banger;
+// alert(customMess);
+
+// var question = "Your species?";
+
+// var spec = prompt(question);
+
+// var x = prompt("Where does the Pope live?");
+// if (x === "Vatican") {
+// alert("Correct!");
+// }
+
+var popularNumber = 2 + 2;
+alert(2 + 2);
+alert(popularNumber);
+var popularNumber = 12 - 24;
+alert(popularNumber);
+var popularNumber = 3 * 12;
+alert(popularNumber);
