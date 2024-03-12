@@ -65,10 +65,46 @@
 // alert("Correct!");
 // }
 
-var popularNumber = 2 + 2;
-alert(2 + 2);
-alert(popularNumber);
-var popularNumber = 12 - 24;
-alert(popularNumber);
-var popularNumber = 3 * 12;
-alert(popularNumber);
+// var popularNumber = 2 + 2;
+// alert(2 + 2);
+// alert(popularNumber);
+// var popularNumber = 12 - 24;
+// alert(popularNumber);
+// var popularNumber = 3 * 12;
+// alert(popularNumber);
+// var num = 10;
+// var popularNumber = num + 200;
+// alert(popularNumber);
+// var num = 10;
+// var anotherNum = 1;
+// var popularNumber = num + anotherNum;
+// alert(popularNumber);
+// var whatsLeftOver = 10 % 3;
+// alert(whatsLeftOver);
+// var whatsLeftOver = 9 % 3;
+// alert(whatsLeftOver);
+// var num = 1;
+// var newNum = ++num;
+// alert(newNum);
+
+// var num = 1;
+// var newNum =num++;
+// alert(newNum);
+
+// var totalCost = 1 + 3 * 4
+// alert(totalCost);
+
+// var totalCost = 1 + (3 * 4);
+// alert(totalCost)
+
+// var message = "Thanks for your input!";
+// alert(message);
+
+// alert("your pc is going to blast.................... ha ha ha");
+// alert (5+7);
+// window.alert ("hello world!");
+// var message = "Thanks, ";
+// var banger = "!";
+// alert(message + banger);
+var spec = prompt("Your species?", "human");
+prompt{spec}
