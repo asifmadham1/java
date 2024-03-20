@@ -6,11 +6,68 @@
 // else{
 //     alert( "You are not eligible for voting");
 // }
-var age =18;
-if (age < 10) {
-    console.log( "Adult");
+// var age =18;
+// if (age < 10) {
+//     console.log( "Adult");
     
-}
-else{
-    console.log( "kid");
-}
+// }
+// else{
+//     console.log( "kid");
+// }
+// var age = prompt( "Enter your age" );
+// if (age > 17){
+//     alert("You can vote");
+
+// }
+// else{
+//     alert( "Sorry you cannot vote yet");
+
+// }
+// var age = prompt( "How old are you? ");
+// if (age >= 18 ){
+//     alert( "You can vote");
+// }
+// else if( age <=18){
+//     alert ("Sorry, You're too young to vote.");
+// }
+// Declare an array
+// let fruits = ["apple", "banana", "orange"];
+
+// console.log(fruits[0]);
+// fruits.push("grapes");
+// console.log(fruits);
+// fruits.push("kiwi");
+// console.log(fruits);
+// fruits.unshift( "strawberry");
+// console.log(fruits);
+// fruits.shift(0);
+// console.log(fruits);
+// var a = prompt("where do u live?")
+// if (a == "usa"){
+//     alert("correct");
+// }else{
+//     alert("wrong");
+// }
+
+// var  a = 10;
+// var b = '10'; 
+// if (a===b) {
+//   console.log( same);
+// } else {
+//   console.log('The values are not equal or have different data types.');
+// }
+// array
+// let arr =[5,6,7];
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.push(9);
+// console.log(arr);
+var fruits =["apple","banana", "orange", "grapes", "kiwi"];
+console.log(fruits);
+fruits.pop()
+console.log(fruits);
+fruits.push("strawberry");
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
