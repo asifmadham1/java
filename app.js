@@ -79,13 +79,15 @@ var a = ["2","5","9","15","18","27"];
 a.splice(1,1, "3","4");
 console.log(a);
 var users =["asif","rehan","shaz", "ali", "amir"];
-users.pop()
-console.log(users);
-users.push("junaid");
-console.log(users);
-users.shift( );
-console.log(users);
-users.unshift("ahmed")
-console.log(users);
-users.splice(1,2,"sara","samina");
-console.log(users);
+// users.pop()
+// console.log(users);
+// users.push("junaid");
+// console.log(users);
+// users.shift( );
+// console.log(users);
+// users.unshift("ahmed")
+// console.log(users);
+// users.splice(1,2,"sara","samina");
+// console.log(users);
+var newarr = users.slice(2,4);
+console.log(newarr)
