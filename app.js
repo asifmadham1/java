@@ -71,3 +71,21 @@ fruits.push("strawberry");
 console.log(fruits);
 fruits.shift();
 console.log(fruits);
+fruits.unshift( "mango");
+console.log(fruits);
+fruits.splice(0,1, "blueberry", "cherry");
+console.log(fruits);
+var a = ["2","5","9","15","18","27"];
+a.splice(1,1, "3","4");
+console.log(a);
+var users =["asif","rehan","shaz", "ali", "amir"];
+users.pop()
+console.log(users);
+users.push("junaid");
+console.log(users);
+users.shift( );
+console.log(users);
+users.unshift("ahmed")
+console.log(users);
+users.splice(1,2,"sara","samina");
+console.log(users);
