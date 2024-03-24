@@ -93,23 +93,32 @@
 // console.log(newarr)
 
 
-for(var i=0;i<10;i++) {
-if(i ===5){break;}
-console.log("hello world");
-}
-var cities =["karachi","lahore","islamabad","peshawar"];
-for(var i=0; i < cities.length; i++){
-    if(cities[i]==="islamabad" ){
-        alert(cities[i] + " is the capital of Pakistan."); break}
+// for(var i=0;i<10;i++) {
+// if(i ===5){break;}
+// console.log("hello world");
+// }
+// var cities =["karachi","lahore","islamabad","peshawar"];
+// for(var i=0; i < cities.length; i++){
+//     if(cities[i]==="islamabad" ){
+//         alert(cities[i] + " is the capital of Pakistan."); break}
         
-    }
+//     }
 
 
 
-var word =prompt("Enter any word: ");
-var check ="";
-for  (var i = 0 ; i <=word.length-1; i++ ){
-    check += word[i]}
-    if (check===word){
-        console.log(word +" "+"is a palindrome word");
-    }
+// var word =prompt("Enter any word: ");
+// var check ="";
+// for  (var i = 0 ; i <=word.length-1; i++ ){
+//     check += word[i]}
+//     if (check===word){
+//         console.log(word +" "+"is a palindrome word");
+//     }
+// ===============// 20 chapters covered of java book============
+
+var name = "ASIF";
+name =name.toLowerCase();
+console.log(name);
+
+var name = "asif";
+name =name.toUpperCase();
+console.log(name);
