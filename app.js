@@ -9,7 +9,7 @@
 // var age =18;
 // if (age < 10) {
 //     console.log( "Adult");
-    
+
 // }
 // else{
 //     console.log( "kid");
@@ -50,7 +50,7 @@
 // }
 
 // var  a = 10;
-// var b = '10'; 
+// var b = '10';
 // if (a===b) {
 //   console.log( same);
 // } else {
@@ -63,22 +63,22 @@
 // console.log(arr);
 // arr.push(9);
 // console.log(arr);
-var fruits =["apple","banana", "orange", "grapes", "kiwi"];
-console.log(fruits);
-fruits.pop()
-console.log(fruits);
-fruits.push("strawberry");
-console.log(fruits);
-fruits.shift();
-console.log(fruits);
-fruits.unshift( "mango");
-console.log(fruits);
-fruits.splice(0,1, "blueberry", "cherry");
-console.log(fruits);
-var a = ["2","5","9","15","18","27"];
-a.splice(1,1, "3","4");
-console.log(a);
-var users =["asif","rehan","shaz", "ali", "amir"];
+// var fruits =["apple","banana", "orange", "grapes", "kiwi"];
+// console.log(fruits);
+// fruits.pop()
+// console.log(fruits);
+// fruits.push("strawberry");
+// console.log(fruits);
+// fruits.shift();
+// console.log(fruits);
+// fruits.unshift( "mango");
+// console.log(fruits);
+// fruits.splice(0,1, "blueberry", "cherry");
+// console.log(fruits);
+// var a = ["2","5","9","15","18","27"];
+// a.splice(1,1, "3","4");
+// console.log(a);
+// var users =["asif","rehan","shaz", "ali", "amir"];
 // users.pop()
 // console.log(users);
 // users.push("junaid");
@@ -89,5 +89,27 @@ var users =["asif","rehan","shaz", "ali", "amir"];
 // console.log(users);
 // users.splice(1,2,"sara","samina");
 // console.log(users);
-var newarr = users.slice(2,4);
-console.log(newarr)
+// var newarr = users.slice(2,4);
+// console.log(newarr)
+
+
+for(var i=0;i<10;i++) {
+if(i ===5){break;}
+console.log("hello world");
+}
+var cities =["karachi","lahore","islamabad","peshawar"];
+for(var i=0; i < cities.length; i++){
+    if(cities[i]==="islamabad" ){
+        alert(cities[i] + " is the capital of Pakistan."); break}
+        
+    }
+
+
+
+var word =prompt("Enter any word: ");
+var check ="";
+for  (var i = 0 ; i <=word.length-1; i++ ){
+    check += word[i]}
+    if (check===word){
+        console.log(word +" "+"is a palindrome word");
+    }
