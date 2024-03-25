@@ -115,10 +115,55 @@
 //     }
 // ===============// 20 chapters covered of java book============
 
-var name = "ASIF";
-name =name.toLowerCase();
-console.log(name);
+// var name = "ASIF";
+// name =name.toLowerCase();
+// console.log(name);
 
-var name = "asif";
-name =name.toUpperCase();
-console.log(name);
+// var name = "asif";
+// name =name.toUpperCase();
+// console.log(name);
+
+
+// var name ="asif abdul majeed"
+// console.log(name.indexOf('j'));
+
+
+
+var val1 =prompt("enter your first value")
+var val2 = prompt("enter your second value")
+var sign = prompt("what operation do you want to perform?")
+console.log("val1"+ "sign" + "val2");
+if (sign === "+"){
+    alert((+val1) + (+val2))}
+    
+
+else if(sign==='-'){
+    alert(val1 - val2 )
+} 
+else if(sign==="*"){
+    alert(val1 * val2)
+}
+else if(sign==="/"){
+    alert(val1 / val2)
+}
+
+
+
+var  num1 = prompt("Enter the first number")
+var op = prompt ("What is the operator ? ")
+var num2 = prompt("Enter another number")
+alert(num1 + " " +op+" " + num2)
+if(op == '+') {
+    alert((+num1)+ (+num2))
+}
+else if (op=="-") {
+    alert ((+num1)-(+num2))
+
+}
+else if(op=="*") {
+    alert ((+num1)*(+num2))
+
+}
+else if(op=="/") {
+    alert( (+num1)/ (+num2) )
+}
