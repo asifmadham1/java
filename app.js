@@ -146,6 +146,9 @@ else if(sign==="*"){
 else if(sign==="/"){
     alert(val1 / val2)
 }
+else if(sign ==='%'){
+    alert(val1/val2*100)}
+
 
 
 
