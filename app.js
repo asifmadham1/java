@@ -129,44 +129,55 @@
 
 
 
-var val1 =prompt("enter your first value")
-var val2 = prompt("enter your second value")
-var sign = prompt("what operation do you want to perform?")
-console.log("val1"+ "sign" + "val2");
-if (sign === "+"){
-    alert((+val1) + (+val2))}
+// var val1 =prompt("enter your first value")
+// var val2 = prompt("enter your second value")
+// var sign = prompt("what operation do you want to perform?")
+// console.log("val1"+ "sign" + "val2");
+// if (sign === "+"){
+//     alert((+val1) + (+val2))}
     
 
-else if(sign==='-'){
-    alert(val1 - val2 )
-} 
-else if(sign==="*"){
-    alert(val1 * val2)
-}
-else if(sign==="/"){
-    alert(val1 / val2)
-}
-else if(sign ==='%'){
-    alert(val1/val2*100)}
+// else if(sign==='-'){
+//     alert(val1 - val2 )
+// } 
+// else if(sign==="*"){
+//     alert(val1 * val2)
+// }
+// else if(sign==="/"){
+//     alert(val1 / val2)
+// }
+// else if(sign ==='%'){
+//     alert(val1/val2*100)}
 
 
 
 
-var  num1 = prompt("Enter the first number")
-var op = prompt ("What is the operator ? ")
-var num2 = prompt("Enter another number")
-alert(num1 + " " +op+" " + num2)
-if(op == '+') {
-    alert((+num1)+ (+num2))
-}
-else if (op=="-") {
-    alert ((+num1)-(+num2))
+// var  num1 = prompt("Enter the first number")
+// var op = prompt ("What is the operator ? ")
+// var num2 = prompt("Enter another number")
+// alert(num1 + " " +op+" " + num2)
+// if(op == '+') {
+//     alert((+num1)+ (+num2))
+// }
+// else if (op=="-") {
+//     alert ((+num1)-(+num2))
 
-}
-else if(op=="*") {
-    alert ((+num1)*(+num2))
+// }
+// else if(op=="*") {
+//     alert ((+num1)*(+num2))
 
-}
-else if(op=="/") {
-    alert( (+num1)/ (+num2) )
+// }
+// else if(op=="/") {
+//     alert( (+num1)/ (+num2) )
+// }
+
+
+
+
+for(var  a = 1; a<=100; a =a+10){  
+ for(var  b = a; b < a+10 ; b++){
+  document.write(b +" ");
+ }
+ 
+ document.write("<br>");
 }
