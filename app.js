@@ -1,193 +1,73 @@
-// var  age =25;
-// if (age ==25) {
-//     alert(  "You are eligible for voting");
+// function
 
-// }
-// else{
-//     alert( "You are not eligible for voting");
-// }
-// var age =18;
-// if (age < 10) {
-//     console.log( "Adult");
+// var now = new Date();
+// var theHr = now.getHours();
+// var theMin = now.getMinutes();
+// alert("Time: " + theHr + ":" + theMin );
 
-// }
-// else{
-//     console.log( "kid");
-// }
-// var age = prompt( "Enter your age" );
-// if (age > 17){
-//     alert("You can vote");
+//     document.write("hello world")
 
+// var email ='admin'
+// var password ='Admin'
+// var email =  prompt('Please enter your Email');
+// var password =  prompt ('please enter your Password') ;
+// if(email == password){
+//     document.write('login successful');
 // }
-// else{
-//     alert( "Sorry you cannot vote yet");
+// else {
+//     document.write('invalid password')
+// }
+// if(true)
+// {
+//     document.write("true");
+// }
+// else
+// {
+//     document.write("false");
+// }
+// var userinput = prompt ("Enter your city")
+// var arr = ['karachi', 'islamabad','lahore', 'peshawar', 'quetta', ];
 
-// }
-// var age = prompt( "How old are you? ");
-// if (age >= 18 ){
-//     alert( "You can vote");
-// }
-// else if( age <=18){
-//     alert ("Sorry, You're too young to vote.");
-// }
-// Declare an array
-// let fruits = ["apple", "banana", "orange"];
-
-// console.log(fruits[0]);
-// fruits.push("grapes");
-// console.log(fruits);
-// fruits.push("kiwi");
-// console.log(fruits);
-// fruits.unshift( "strawberry");
-// console.log(fruits);
-// fruits.shift(0);
-// console.log(fruits);
-// var a = prompt("where do u live?")
-// if (a == "usa"){
-//     alert("correct");
-// }else{
-//     alert("wrong");
-// }
-
-// var  a = 10;
-// var b = '10';
-// if (a===b) {
-//   console.log( same);
-// } else {
-//   console.log('The values are not equal or have different data types.');
-// }
-// array
-// let arr =[5,6,7];
-// console.log(arr);
-// arr.pop();
-// console.log(arr);
-// arr.push(9);
-// console.log(arr);
-// var fruits =["apple","banana", "orange", "grapes", "kiwi"];
-// console.log(fruits);
-// fruits.pop()
-// console.log(fruits);
-// fruits.push("strawberry");
-// console.log(fruits);
-// fruits.shift();
-// console.log(fruits);
-// fruits.unshift( "mango");
-// console.log(fruits);
-// fruits.splice(0,1, "blueberry", "cherry");
-// console.log(fruits);
-// var a = ["2","5","9","15","18","27"];
-// a.splice(1,1, "3","4");
-// console.log(a);
-// var users =["asif","rehan","shaz", "ali", "amir"];
-// users.pop()
-// console.log(users);
-// users.push("junaid");
-// console.log(users);
-// users.shift( );
-// console.log(users);
-// users.unshift("ahmed")
-// console.log(users);
-// users.splice(1,2,"sara","samina");
-// console.log(users);
-// var newarr = users.slice(2,4);
-// console.log(newarr)
-
-
-// for(var i=0;i<10;i++) {
-// if(i ===5){break;}
-// console.log("hello world");
-// }
-// var cities =["karachi","lahore","islamabad","peshawar"];
-// for(var i=0; i < cities.length; i++){
-//     if(cities[i]==="islamabad" ){
-//         alert(cities[i] + " is the capital of Pakistan."); break}
-        
+// for(i =0; i<arr.length; i++){
+//     if(userinput == arr[i]){
+//         alert('You are in'+" "+ arr[i])
+//         break
 //     }
 
-
-
-// var word =prompt("Enter any word: ");
-// var check ="";
-// for  (var i = 0 ; i <=word.length-1; i++ ){
-//     check += word[i]}
-//     if (check===word){
-//         console.log(word +" "+"is a palindrome word");
 //     }
-// ===============// 20 chapters covered of java book============
 
-// var name = "ASIF";
-// name =name.toLowerCase();
-// console.log(name);
-
-// var name = "asif";
-// name =name.toUpperCase();
-// console.log(name);
-
-
-// var name ="asif abdul majeed"
-// console.log(name.indexOf('j'));
-
-
-
-// var val1 =prompt("enter your first value")
-// var val2 = prompt("enter your second value")
-// var sign = prompt("what operation do you want to perform?")
-// console.log("val1"+ "sign" + "val2");
-// if (sign === "+"){
-//     alert((+val1) + (+val2))}
-    
-
-// else if(sign==='-'){
-//     alert(val1 - val2 )
-// } 
-// else if(sign==="*"){
-//     alert(val1 * val2)
-// }
-// else if(sign==="/"){
-//     alert(val1 / val2)
-// }
-// else if(sign ==='%'){
-//     alert(val1/val2*100)}
-
-
-
-
-// var  num1 = prompt("Enter the first number")
-// var op = prompt ("What is the operator ? ")
-// var num2 = prompt("Enter another number")
-// alert(num1 + " " +op+" " + num2)
-// if(op == '+') {
-//     alert((+num1)+ (+num2))
-// }
-// else if (op=="-") {
-//     alert ((+num1)-(+num2))
-
-// }
-// else if(op=="*") {
-//     alert ((+num1)*(+num2))
-
-// }
-// else if(op=="/") {
-//     alert( (+num1)/ (+num2) )
+// if (userinput != arr [i]){
+//     alert('Invalid City, Please try again!')
 // }
 
+// var x = prompt("Where does the Pope live?")
+// if (x =="vatican"){
+// document.write("right");
+// }
 
+// var name = prompt("What is your Name ? ");
+// document.write("Hello " +name+ ", nice to meet you")
 
+// var age = prompt("How old are you?");
+//  if(age < 25)
+//  {
+//  alert('This is true condition');
+//  }
+//  else
+//  {
+//  alert('This is false condition');
+//  }
 
-for(var  a = 1; a<=100; a =a+10){ 
- for(var  b = a; b < a+10 ; b++){
-  document.write(b +" ");
- }
- 
- document.write("<br>");
+var userinput = prompt("enter your city");
+var arr = ["lahore", "islamabad", "karachi", "peshawar", "quetta"];
+var match = false;
+for (var i = 0; i < arr.length; i++) {
+  if (userinput === arr[i]) {
+    match = true;
+    alert("you are from" + "  " + arr[i]);
+    break;
+  }
 }
-
-
-
- 
-
-
-
-
-
-
+if (match == false) {
+  alert("Invalid City, Please try again");
+}
